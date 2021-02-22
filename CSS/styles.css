@@ -1,0 +1,115 @@
+body {
+  background-color: #19a1ad;
+  position: relative;
+  margin: 0;
+  }
+
+hr {
+  border: none;
+  border-top: 1px solid #e7e7e7;
+  margin: 0;
+}
+
+p {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+table {
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+    margin: 22px auto 0 auto;
+}
+
+td {
+  width: 100px;
+  margin:4px
+}
+
+a{
+  color: #999999;
+}
+
+.top-circle {
+  position: absolute;
+  right: 45%;
+  bottom: 60%;
+}
+
+.bottom-circle {
+  position: absolute;
+  left: 45%;
+  top: 60%;
+}
+
+.card {
+  background-color: white;
+  width: 355px;
+  height: 376px;
+  border-radius: 20px;
+  margin: 100px auto auto auto;
+}
+
+.top-container {
+  border-radius: 20px 20px 0 0;
+  min-width: 100%;
+}
+
+.circulo-blanco {
+  width: 104px;
+  height: 104px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-48%,-48%);
+}
+
+.profile-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-48%,-48%);
+
+}
+
+.nombre {
+  margin-top: 75px;
+  margin-bottom: 8px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.edad {
+  color: #999999;
+}
+
+.ciudad {
+  color: #999999;
+  margin: 0 auto 28px auto;
+  text-align: center;
+}
+
+.numeros {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.type {
+  color: #999999;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+}
+
+.attribution {
+	text-align: center;
+  position: absolute;
+  vertical-align: bottom;
+  width: 100%;
+  color: #EAF6F6;
+}
